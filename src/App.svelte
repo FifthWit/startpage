@@ -2,7 +2,7 @@
   import { data, config } from "./data";
   import Box from "./components/box.svelte";
   import Search from "./components/search.svelte";
-  import Rss from "./components/rss.svelte";
+  import Rss from "./components/taskItems/rss.svelte";
   import Taskbar from "./components/taskbar.svelte";
   const username = "Fifth"
 

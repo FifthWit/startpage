@@ -84,7 +84,7 @@
 <!-- RSS Icon Button for Taskbar -->
 <button
     onclick={openDialog}
-    class="p-2 text-neutral-400 hover:text-white hover:bg-neutral-800/50 rounded-lg transition-all duration-200"
+    class="hover:cursor-pointer text-neutral-400 hover:text-white hover:bg-neutral-800/50 rounded-lg transition-all duration-200"
     title="EFF RSS Feed"
 >
     <Rss size={20} />
