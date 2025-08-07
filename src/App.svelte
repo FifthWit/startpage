@@ -2,6 +2,8 @@
   import { data, config } from "./data";
   import Box from "./components/box.svelte";
   import Search from "./components/search.svelte";
+  import Rss from "./components/rss.svelte";
+  import Taskbar from "./components/taskbar.svelte";
   const username = "Fifth"
 
   let time = $state('');
@@ -29,6 +31,7 @@
   
 </script>
 
+<Taskbar />
 <main class="h-screen w-screen flex flex-col justify-center items-center">
   <div class="flex flex-col mt-10 justify-center items-center gap-8 mb-16">
     <h1 
