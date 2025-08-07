@@ -31,6 +31,10 @@
             name: '!y',
             syntax: () => `https://www.youtube.com/results?search_query=${query}`,
             icon: Youtube
+        },
+        {
+            name: '!ps',
+            syntax: () => `https://pstream.mov/browse/${query}`
         }
     ]
 
