@@ -5,14 +5,16 @@ interface item {
 }
 
 interface dataInterface {
-    textImg: string;
     development: item[],
     media: item[],
     quickstart: item[]
 }
 
+export const config = {
+    textImg: "https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546140.jpg?semt=ais_hybrid&w=740&q=80"
+}
+
 export const data: dataInterface = {
-    textImg: 'https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546140.jpg?semt=ais_hybrid&w=740&q=80',
     development: [
         {
             name: 'GitHub',

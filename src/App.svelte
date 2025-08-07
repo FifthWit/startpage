@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { data } from "./data";
+  import { data, config } from "./data";
   import Box from "./components/box.svelte";
   import Search from "./components/search.svelte";
   const username = "Fifth"
@@ -30,10 +30,17 @@
 </script>
 
 <main class="h-screen w-screen flex flex-col justify-center items-center">
-  <div class="flex flex-row justify-center items-center gap-8 mb-16">
-    <h1 class="text-4xl font-bold text-white">{time}</h1>
+  <div class="flex flex-col mt-10 justify-center items-center gap-8 mb-16">
+    <h1 
+      class="text-6xl font-bold bg-clip-text text-transparent"
+      style="background-image: url('{config.textImg}'); background-size: cover; background-position: center;"
+    >
+      {time}
+    </h1>
     <div class="w-fit text-center font-bold text-4xl">
-      <h1 class="text-white">{timeMessage}</h1>
+      <h1 class="text-white">
+        {timeMessage}
+      </h1>
       <div class="h-2 bg-white my-1"></div>
       <h1 class="text-white">{username}</h1>
     </div>
