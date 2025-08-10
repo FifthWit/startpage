@@ -1,10 +1,9 @@
 <script lang="ts">
-  import { data, config } from "./data";
+  import { data, config } from "./config";
   import Box from "./components/box.svelte";
   import Search from "./components/search.svelte";
-  import Rss from "./components/taskItems/rss.svelte";
   import Taskbar from "./components/taskbar.svelte";
-  const username = "Fifth"
+  const username = config.username
 
   let time = $state('');
   let timeMessage = $state('');

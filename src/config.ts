@@ -11,7 +11,9 @@ interface dataInterface {
 }
 
 export const config = {
-    textImg: "https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546140.jpg?semt=ais_hybrid&w=740&q=80"
+    textImg: "https://img.freepik.com/free-photo/japan-background-digital-art_23-2151546140.jpg?semt=ais_hybrid&w=740&q=80", // Img your Time has
+    chatbot: "https://kimi.com", // Your Prefered AI Chatbot 
+    username: "Fifth" // You :)
 }
 
 export const data: dataInterface = {
